@@ -1,5 +1,8 @@
 package com.naidu.interviewprograms;
 
+/*
+*@Author:janakinaidu
+*/
 public class SeriesPatternAndTraingularNumberSeries {
 
 	public static void main(String[] args) {
@@ -39,3 +42,5 @@ public class SeriesPatternAndTraingularNumberSeries {
 	}
 
 }
+//source:
+https://www.geeksforgeeks.org/program-print-triangular-number-series-till-n/
