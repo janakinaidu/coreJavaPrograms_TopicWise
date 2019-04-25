@@ -1,1 +1,1 @@
-# coreJavaPrograms_TopicWise
+# CoreJava Interview Programs
