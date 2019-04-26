@@ -73,4 +73,16 @@ c) Iteration Using ListIterator Object.
 
 d) Iteration Using Enhanced for loop.
 
+For Sorting and Reverse an ArrayList:
+====================================
+  	
+	List<String> list = new ArrayList<String>();
+		list.add("janu");
+		list.add("ravi");
+		list.add("kumar");
+		list.add("hari");
+		list.add("pavan");
+	Collections.sort(list);
+	Collections.reverse(list)
+
 
