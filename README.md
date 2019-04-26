@@ -32,7 +32,7 @@ a)Using Arrays.asList()
 	
 b)Using Collections.addAll() Method
 
-      String[] array = new String[] {"JAVA", "SERVLETS", "SQL", "STRUTS"};
+       String[] array = new String[] {"JAVA", "SERVLETS", "SQL", "STRUTS"};
          
         ArrayList<String> list = new ArrayList<String>();
          
@@ -41,9 +41,12 @@ b)Using Collections.addAll() Method
         System.out.println(list);
 	
 c) Using ArrayList.addAll() Method :
+
      		list.addAll(Arrays.asList(array));
 		System.out.println(list);
 
 d)Using Streams from Java 8:
+
 		List<String> list1 = Arrays.stream(arr).collect(Collectors.toList());
 		System.out.println(list1);
+
