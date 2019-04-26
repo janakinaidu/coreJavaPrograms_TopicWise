@@ -85,4 +85,16 @@ For Sorting and Reverse an ArrayList:
 	Collections.sort(list);
 	Collections.reverse(list)
 
+Difference between List and ArrayList
+=====================================
+1.List<> list = new ArrayList<>();
+2.ArrayList<> arryList = new ArrayList<>();
 
+->List is an Interface and ArrayList is an implementation class;
+->If we are using first approach then only we can use the method of List interface only.
+->If we use second appraoch then we can use the methods of both List and ArrayList methods
+
+Recomended:
+-----------
+It is recomended to use first approach for getting loose coupling,if tomorrow we want to change the implementation class,then
+ First approach is flexible;
