@@ -3,7 +3,7 @@
 ArrayList vs LinkedList
 =======================
 
--> Both ArrayList and LinkedList maintain insertion order
+-> Both ArrayList and LinkedList maintain insertion order <br>
 -> once ArrayList size is reached it will creates a new ArrayList of increased size copies the old arrayList.
 -> ArrayList is index based,and better for retrieval operations.
 -> LinkedList is better for insertion and removal and it is node based.
