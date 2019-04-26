@@ -87,12 +87,12 @@ For Sorting and Reverse an ArrayList:
 
 Difference between List and ArrayList
 =====================================
-1.List<> list = new ArrayList<>();
-2.ArrayList<> arryList = new ArrayList<>();
+	1.List<> list = new ArrayList<>();
+	2.ArrayList<> arryList = new ArrayList<>();
 
-->List is an Interface and ArrayList is an implementation class;
-->If we are using first approach then only we can use the method of List interface only.
-->If we use second appraoch then we can use the methods of both List and ArrayList methods
+->List is an Interface and ArrayList is an implementation class; <br>
+->If we are using first approach then only we can use the method of List interface only.<br>
+->If we use second appraoch then we can use the methods of both List and ArrayList methods. <br>
 
 Recomended:
 -----------
