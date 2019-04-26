@@ -50,3 +50,27 @@ d)Using Streams from Java 8:
 		List<String> list1 = Arrays.stream(arr).collect(Collectors.toList());
 		System.out.println(list1);
 
+Converting ArrayList to Array
+=============================
+	
+	ArrayList<String> list = new ArrayList<String>();
+        list.add("JANU");
+        list.add("KRISHNA");
+        list.add("VENU");
+        list.add("RAJU");
+        list.add("SAI");
+        
+        String[] array = new String[list.size()];
+        list.toArray(array);
+
+Ways to irerate the ArrayList
+=============================
+a) Iteration Using Normal for loop.
+
+b) Iteration Using Iterator Object.
+
+c) Iteration Using ListIterator Object.
+
+d) Iteration Using Enhanced for loop.
+
+
