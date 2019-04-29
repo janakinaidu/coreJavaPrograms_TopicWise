@@ -2,6 +2,9 @@ package programs;
 
 import java.util.Scanner;
 
+/*
+*@author Janakinaidu
+*/
 public class FancyNumber {
 
 	public static void main(String[] args) {
