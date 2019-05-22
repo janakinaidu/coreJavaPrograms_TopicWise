@@ -28,8 +28,8 @@ public class ArraySortingWithoutAnyFunctions {
 			for (int j = 0; j < arr.length - i - 1; j++) {
 
 				if (arr[j] > arr[j + 1]) {
-					int temp = arr[j];
-					arr[j] = arr[j + 1];
+					int temp = arr[j];  // [2, 3, 4, 1, 1]  first step;
+					arr[j] = arr[j + 1]; // [2, 3, 4, 1, 7]  first step;
 					arr[j + 1] = temp;
 				}
 
@@ -45,3 +45,6 @@ public class ArraySortingWithoutAnyFunctions {
 		// output: 1 2 3 4 7
 	}
 }
+//2nd step:
+// [2, 3, 1 1, 7]  first step;
+// [2, 3, 1, 4, 7]  first step;
